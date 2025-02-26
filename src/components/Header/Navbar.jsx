@@ -5,7 +5,7 @@ import { RiMenu3Fill } from "react-icons/ri";
 import { IoCloseSharp } from "react-icons/io5";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import resume from "../../assets/AjaySharmaResume.pdf";
+//import resume from "../../assets/AjaySharmaResume.pdf";
 import { MdOutlineFileDownload } from "react-icons/md";
 function Navbar() {
   const navigate = useNavigate();
@@ -80,12 +80,11 @@ function Navbar() {
                 ))}
                 <li className="px-6 py-2  lg:pl-40 ">
                   <Link
-                    to={resume}
-                    download="AjayResume"
-                    rel="noreferrer"
-                    target="_blank"
+                    to="#"
+                    download="#"
+                    
                   >
-                    <Button className="border border-[#915EFF] rounded-full py-0.5 px-2 md:px-4 md:py-1 flex gap-2 justify-center items-center">
+                    <Button className="border border-[#915EFF] rounded-full py-0.5 px-2 md:px-4 md:py-1 flex gap-2 justify-center items-center " disabled>
                       <MdOutlineFileDownload />
                       My Resume
                     </Button>
