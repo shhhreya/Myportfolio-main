@@ -6,7 +6,7 @@ import programingwithjs from "../assets/meeta.png";
 import frontend from "../assets/meeta.png";
 import discordbot from "../assets/discordbot.png";
 import versioncontrol from "../assets/versioncontrol.png";
-import sitelogo from "../assets/Sitelogo.png";
+import sitelogo from "../assets/icons8-s-80.png";
 import N from "../assets/N.png";
 
 const Skill_data = [
@@ -173,8 +173,8 @@ const Projectinfo = [
   {
     project_icon: sitelogo,
     project_name: "My Portfolio",
-    github_link: "https://github.com/AjaySharma78/Myportfolio",
-    project_link: "https://ajaysharma07.vercel.app/",
+    github_link: "https://github.com/shhhreya/Myportfolio-main",
+    project_link: "https://shreya07.vercel.app/",
     created_date: "2024/09/28",
     project_desc: [
       "Personal Portfolio: Showcase your skills, projects, and certifications.",
